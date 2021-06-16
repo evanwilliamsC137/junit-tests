@@ -17,6 +17,7 @@ public class CodeupCryptTest {
         assertEquals("F3r", CodeupCrypt.hashPassword("Fer"));
         assertEquals("123", CodeupCrypt.hashPassword("123"));
         assertEquals("124", CodeupCrypt.hashPassword("12a"));
+        assertEquals("m1m1-1mf9rst", CodeupCrypt.hashPassword("mimi-imfurst"));
     }
 
     @Test
