@@ -21,6 +21,7 @@ public class StudentTest {
 
         assertEquals(expectedName,testStudent.getName());
         assertEquals(expectedID,testStudent.getId());
+//        assertTrue(testStudent.getGrade().isEmpty());
 
     }
 
